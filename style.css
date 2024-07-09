@@ -59,7 +59,7 @@ button {
     border-radius: 16px;
     padding: 8px;
     font-size: 24px;
-    width: 200px
+    width: 150px;
 }
 
 .main {
@@ -71,7 +71,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 70px;
+    padding: 70px 400px;
     gap: 70px;
 }
 
@@ -125,3 +125,23 @@ h2 {
     margin: 0;
 }
 
+.cta {
+    background-color: #3882f6;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+    padding: 40px;
+    width: 100%;
+}
+
+.cta button {
+    border: solid #f9faf8 2px;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
